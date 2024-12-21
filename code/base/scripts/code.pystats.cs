@@ -71,7 +71,7 @@ function PyStats::onKilled(%playerId, %killerId, %damageType)
 		%killMsg = sprintf("SUICIDE: ID: %1 (%2) = Score %3", %playerId, Client::GetName(%playerId), %score);
 	} else {
 		%score = floor(%killerId.score);
-		%killMsg = sprintf("PLAYER: ID: %1 (%2) killed (%3) %4 = Score %5", %killerId, Client::GetName(%killerId), %playerId, Client::GetName(%playerId), %score);
+		%killMsg = sprintf("PLAYER: ID: %1 (%2) killed %3 (%4) = Score %5", %killerId, Client::GetName(%killerId), %playerId, Client::GetName(%playerId), %score);
 	}
 			
 	Bov::Broadcast(%killMsg);
