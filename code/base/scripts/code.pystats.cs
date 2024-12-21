@@ -189,5 +189,3 @@ function PyStats::flagleaveMissionArea(%this, %playerId)
 	);
 }
 Attachment::AddAfter("Flag::leaveMissionArea", "PyStats::flagleaveMissionArea");
-
-PyStats::Init();
