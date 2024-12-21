@@ -3,8 +3,8 @@
 
 // This allows Tribes server related events to be stream-lined to a python socket
 // that is connected to the listening port on the server. The listener will repeatedly run
-// and listen for events 0.1 seconds. Any changes made in the actual 'code.pystats.cs' 
-// script will automatically reflect on the python script once re-executed in the console.
+// and listen for events every 0.1 seconds. Any changes made in the actual 'code.pystats.cs' 
+// script will automatically reflect in the python script once re-executed in the console.
 //
 // You now have the ability to manipulate the data outside of the game how you wish.
 //
