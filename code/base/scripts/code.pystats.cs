@@ -46,7 +46,7 @@ function PyStats::Init()
 Attachment::AddAfter("Game::startMatch", "PyStats::Init");
 
 // #####################################################
-// # 					Client Events                  #
+// #                    Client Events                  #
 // #####################################################
 
 function PyStats::onDamage(%this, %type, %value, %pos, %vec, %mom, %vertPos, %quadrant, %object) 
@@ -124,7 +124,7 @@ Attachment::AddAfter("Client::leaveGame", "PyStats::leaveGame");
 
 
 // #####################################################
-// # 					Flag Events					   #
+// #                    Flag Events                    #
 // #####################################################
 
 function PyStats::onFlagGrab(%team, %cl)
