@@ -6,7 +6,7 @@
 // and listen for events 0.1 seconds. Any changes made in the actual 'code.pystats.cs' 
 // script will automatically reflect on the python script once re-executed in the console.
 //
-// You now have the ability to manipulate the data ouside of the game how you wish.
+// You now have the ability to manipulate the data outside of the game how you wish.
 //
 // Big thank you to Bovidi for allowing this to happen!
 //
