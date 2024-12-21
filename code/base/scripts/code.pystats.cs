@@ -15,7 +15,7 @@
 $PyStats::Version = "1.0";
 
 // #####################################################
-// # Variables
+// #                 PyStats Variables                 #
 // #####################################################
 
 $PyStats::ConnectionCreated = false; // Keep track of a connection
