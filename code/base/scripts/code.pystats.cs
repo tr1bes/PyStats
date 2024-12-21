@@ -18,12 +18,12 @@ $PyStats::Version = "1.0";
 // #                 PyStats Variables                 #
 // #####################################################
 
+$PyStats::Enabled = true; // Run PyStats (Default: True)
+$PyStats::ListeningPort = "28011"; // The port python should listen to
+
 $PyStats::ConnectionCreated = false; // Keep track of a connection
 $PyStats::EnableServerDebug = false; // Enables server debugging (Warning: Super annoying..)
 $PyStats::EnableDamageDebug = false; // Enables damage results
-
-$PyStats::Enabled = true; // Run PyStats (Default: True)
-$PyStats::ListeningPort = "28011"; // The port python should listen to
 
 
 // Do not run if not enabled
