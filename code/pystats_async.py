@@ -1,5 +1,7 @@
 import asyncio, socket
 
+PYSTATS_VERSION = "1.0"
+
 py_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 py_socket.bind(("127.0.0.1", 28011))
 py_socket.setblocking(False)
@@ -22,7 +24,7 @@ async def pystats_listener():
 
 async def main():
     if py_socket:
-        print("** Started PyStats v1.0 for Starsiege: Tribes **")
+        print(f"** Started PyStats v{PYSTATS_VERSION} for Starsiege: Tribes **")
     await pystats_listener()
 
 if __name__ == "__main__":
