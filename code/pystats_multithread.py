@@ -56,7 +56,7 @@ class UDPListener:
 
     async def run(self):
         """
-        Start the UDP listener and queue processing tasks.
+        Start PyStats and queue processing tasks.
         """
         print(f"** Started PyStats v{PYSTATS_VERSION} for Starsiege: Tribes **")
         
